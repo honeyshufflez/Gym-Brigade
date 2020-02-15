@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<title>Gym Brigade</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "impact", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("bg.jpg");
+  min-height: 90%;
+}
+</style>
+<body>
+
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#about" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open 24hours</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">JOIN THE<br>FAMILIA</span>
+    <p style="color:white;font-size:20px"> Creating a positive impact on the community by <br> providing an outlet for people to build better minds and bodies </p>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">JOIN NOW!</a></p>
+  </div>
+</header>
+
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MEMBERSHIP</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'PT');" id="myLink">
+        <div class="w3-col s6 tablink w3-padding-large w3-hover-blue">Personal training</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Classes');">
+        <div class="w3-col s6 tablink w3-padding-large w3-hover-blue">Classes</div>
+      </a>
+
+    </div>
+
+    <div id="PT" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Existing Goals</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$850</span></h1>
+      <p class="w3-text-grey">Work on existing goals<br>valid for 2 months</p>
+      <hr>
+
+      <h1><b>Weight Loss</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1650</span></h1>
+      <p class="w3-text-grey">Guaranteed Weight Loss<br>valid for 4 months</p>
+      <hr>
+
+      <h1><b>Weight Loss or Gain</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2400</span></h1>
+      <p class="w3-text-grey">Made for gaining/losing of weight;<br> Strength development<br> valid for 6 months</p>
+      <hr>
+
+      <h1><b>Sports Massage</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$855</span></h1>
+      <p class="w3-text-grey">With dry cupping therapy</p>
+      <hr>
+
+      <h1><b>Be a BEAST</b> <span class="w3-tag w3-red w3-round">Best Value!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$3140</span></h1>
+      <p class="w3-text-grey">For the mortals who want trainings based on all the packages<br> valid for 8 months</p>
+      <hr>
+
+      <h1><b>Gua Sha Therapy</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$675</span></h1>
+      <p class="w3-text-grey">With Sports Massage</p>
+    </div>
+
+    <div id="Classes" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Z strength</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$30/1hr</span></h1>
+
+      <hr>
+
+      <h1><b>Kettlebell Fitness</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$30/1hr</span></h1>
+
+      <hr>
+
+      <h1><b>OBEAST</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$30/1hr</span></h1>
+
+      <hr>
+
+      <h1><b>Functional HIIT</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$30/45mins</span></h1>
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About Us</h1>
+    <p>Located in the heartlands of Serangoon, we’re a small, and yet, reasonably versatile fitness compound.
+      We cater to many varieties of fitness enthusiasts, especially to those who lean towards the domains of
+      powerlifting and bodybuilding, although we have accommodated crossfitters and even Olympic weightlifters in our humble abode.
+      What Gym Brigade excels in, however, is the fostering of a close and tightly-knit fitness community,
+      where everyone who steps into our gym can always expect the support and camaraderie of their fellow gym-goers,
+      an often overlooked and highly beneficial factor in the pursuit of a better, fitter and healthier lifestyle.</p>
+    <p><strong>Welcome to Gym Brigade, </strong>where we believe in the strength of unity.<br> No discrimination, no judgement -
+      just pure effort and brotherhood.<img src="gymbrigade.jpg" style="width:150px" class="w3-circle w3-right" alt="logo"></p>
+    <p>Join Us Today!</p>
+    <video width="320" height="240" controls>
+  <source src="video1.mp4" type="video/mp4">
+</video>
+    <h1><b>Opening Hours</b></h1>
+
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Mon & Tue 8.00-24.00</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<img src="place.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Get In Touch</h1>
+    <p>480 Upper Serangoon Road, Singapore 534515</p>
+    <p><span class="w3-tag">Call us!</span>+65 8817 1303</p>
+    <p class="w3-xxlarge"><strong>A STRONGER YOU</strong>IS A BETTER YOU</p>
+    <p>Engage us to inquire more and assess your current fitness level!</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="Phone" placeholder="Phone" required name="Phon3"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <img style="height:50px;width:60px"src="gymbrigade.jpg" alt="logo">
+
+  <p><a href="https://www.gymbrigade.net" title="W3.CSS" target="_blank" class="w3-hover-text-green"</a>Follow us today!</p>
+</footer>
+
+<script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
